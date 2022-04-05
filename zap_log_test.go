@@ -24,7 +24,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/pingcap/errors"
+	"github.com/duffiye/errors"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
