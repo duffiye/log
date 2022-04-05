@@ -482,9 +482,9 @@ func (enc *textEncoder) EncodeEntry(ent zapcore.Entry, fields []zapcore.Field) (
 	return ret, nil
 }
 
-func (enc *textEncoder) truncate() {
-	enc.buf.Reset()
-}
+// func (enc *textEncoder) truncate() {
+// 	enc.buf.Reset()
+// }
 
 func (enc *textEncoder) closeOpenNamespaces() {
 	for i := 0; i < enc.openNamespaces; i++ {
